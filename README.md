@@ -20,3 +20,10 @@ entry-name2	/the/actual/path2
 The entry names and the actual paths are seperated by tab characters
 
 Then change the working directory by `. cdd entry-name1` command
+You may add the following content to your bashrc file:
+``` bash
+cdd(){
+	. cdd "$@"
+}
+```
+Then you can simply use `cdd` instead of `. cdd`
