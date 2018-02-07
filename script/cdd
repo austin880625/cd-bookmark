@@ -1,0 +1,3 @@
+#!/bin/bash
+TARGET=$(bmquery $1)
+cd ${TARGET}
